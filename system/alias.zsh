@@ -43,7 +43,7 @@ alias flushdns='echo "» dscacheutil -flushcache"; dscacheutil -flushcache' # Fl
 ################################################################################################################
 alias gzip='echo "» gzip -9n"; gzip -9n' # set strongest compression level as ‘default’ for gzip
 alias ping='echo "» pint -c 5"; ping -c 5' # ping 5 times ‘by default’
-alias hosts='sudo subl /private/etc/hosts'
+alias hosts='subl /private/etc/hosts'
 
 ################################################################################################################
 alias hist='history | grep "$@"'

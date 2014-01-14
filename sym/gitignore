@@ -44,3 +44,5 @@ Thumbs.db
 # OTHER #
 #########
 *.xiki
+*.sass-cache/
+node_modules/

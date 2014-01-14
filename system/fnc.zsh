@@ -51,17 +51,17 @@ function hipchat() {
 function browse() {
   if [[ ${PWD} == *PROJECTS* ]]
   then
-    open http://local.dev/${PWD##/Users/robbieb/Documents/PROJECTS}$1
+    open http://local.dev/${PWD##/Users/robbiebardijn/Documents/PROJECTS}$1
   fi
 
   if [[ ${PWD} == *OWN_PROJECTS* ]]
   then
-    open http://own.dev/${PWD##/Users/robbieb/Documents/OWN_PROJECTS}$1
+    open http://own.dev/${PWD##/Users/robbiebardijn/Documents/OWN_PROJECTS}$1
   fi
 
   if [[ ${PWD} == *REPO* ]]
   then
-    open http://local.repo/${PWD##/Users/robbieb/Documents/REPO}$1
+    open http://local.repo/${PWD##/Users/robbiebardijn/Documents/REPO}$1
   fi
 }
 

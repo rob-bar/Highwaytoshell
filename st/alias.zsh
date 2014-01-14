@@ -9,4 +9,4 @@ alias stx='subl .;subl *.xiki'
 alias xiki='pwd > tree.xiki'
 
 # BROWSE TO THE PACKAGES
-alias spack='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages'
+alias spack='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages'
