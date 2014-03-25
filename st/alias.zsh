@@ -1,5 +1,5 @@
 # OPEN UP SUBLIME TEXT
-alias subl='/Users/robbiebardijn/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+# alias subl='/Users/robbiebardijn/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias st='subl .'
 
 # OPEN UP XIKI SUBLIME TEXT

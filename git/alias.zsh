@@ -1,5 +1,5 @@
 # VIEW THIS FILE
-alias algit='cat ~/.oh-my-zsh/custom/git/aliases.sh'
+alias algit='cat ~/.oh-my-zsh/custom/git/alias.zsh'
 
 # GIT HELP & INIT
 alias gi='git init'
@@ -130,6 +130,7 @@ alias gbl='git blame'
 # - PUSH
 alias gps='git push'
 alias gpsf='git push -f'
+alias gpso='git push origin'
 alias gpsom='git push origin master'
 alias gpsod='git push origin develop'
 alias gpsos='git push origin staging'

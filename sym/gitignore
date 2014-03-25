@@ -46,3 +46,7 @@ Thumbs.db
 *.xiki
 *.sass-cache/
 node_modules/
+
+# DRUPAL #
+##########
+stage_file_proxy/
