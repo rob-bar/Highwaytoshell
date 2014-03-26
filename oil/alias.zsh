@@ -1,5 +1,5 @@
 # VIEW THIS FILE
-alias aloil='cat ~/.oh-my-zsh/custom/oil/aliases.sh'
+alias aloil='cat ~/.oh-my-zsh/custom/oil/alias.zsh'
 
 # GENERATING
 alias ocp='oil create blog'

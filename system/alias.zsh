@@ -1,5 +1,5 @@
 # VIEW THIS FILE
-alias alsys='cat ~/.oh-my-zsh/custom/system/alias.sh'
+alias alsys='cat ~/.oh-my-zsh/custom/system/alias.zsh'
 
 # paths
 ################################################################################################################
