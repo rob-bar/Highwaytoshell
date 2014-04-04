@@ -43,8 +43,9 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		# "earthquake 3 0" \
 
 		# "mailcount 9 255" \
-		"battery 0 94" \
-		"now_playing 24 0" \
+		"time 0 94 ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
+		"battery 24 0" \
+
 		#"cpu 240 136" \
 		# "load 0 24" \
 		# "tmux_mem_cpu_load 255 136" \
@@ -54,7 +55,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"xkb_layout 125 117" \
 		# "date_day 24 0 " \
 		"date 154 0 ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
-		"time 24 0 ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
+		"now_playing 24 0" \
 		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 	)
 fi
