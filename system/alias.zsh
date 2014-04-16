@@ -17,9 +17,6 @@ alias portf='cd ~/Documents/OWN_PROJECTS/portfolio_2013'
 alias pportf='cd ~/Documents/OWN_PROJECTS/panel_portfolio'
 
 ################################################################################################################
-alias mkassets='mkdir css img font download js img/layout img/icon js/lib css/lib'
-
-################################################################################################################
 alias reload!='. ~/.bash_profile'
 alias hts='cd ~/.oh-my-zsh/custom'
 

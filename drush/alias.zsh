@@ -1,5 +1,5 @@
 # VIEW THIS FILE
-alias aldrush='cat ~/.oh-my-zsh/custom/node/alias.sh'
+alias aldrush='cat ~/.oh-my-zsh/custom/drush/alias.zsh'
 
 # GENERAL
 alias dcca='drush cc all'
