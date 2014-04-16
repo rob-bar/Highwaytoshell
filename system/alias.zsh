@@ -16,6 +16,10 @@ alias nodehost='cd ~/Documents/OWN_PROJECTS/node/;npm start'
 alias portf='cd ~/Documents/OWN_PROJECTS/portfolio_2013'
 alias pportf='cd ~/Documents/OWN_PROJECTS/panel_portfolio'
 
+# builds
+################################################################################################################
+alias bfrontend='sh $ZSH_CUSTOM/builds/frontend.sh'
+
 ################################################################################################################
 alias reload!='. ~/.bash_profile'
 alias hts='cd ~/.oh-my-zsh/custom'
