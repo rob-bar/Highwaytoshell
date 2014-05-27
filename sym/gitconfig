@@ -21,6 +21,8 @@
 [merge]
   log = true
   stat = true
+[push]
+  default = matching
 [core]
   excludesfile = ~/.gitignore
   editor = subl
