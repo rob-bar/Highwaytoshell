@@ -92,6 +92,8 @@ alias gcof='git checkout -f'
 alias gcoo='git checkout --ours'
 # checkout other files in merge conflict
 alias gcot='git checkout --theirs'
+# checkout branch and copy the previous branch to the clipboard for quicker merge
+alias gcoc='git rev-parse --abbrev-ref HEAD | pbcopy && git checkout'
 
 # - DIFF
 alias gd='git diff'

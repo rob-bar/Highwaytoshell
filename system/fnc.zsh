@@ -150,3 +150,11 @@ function fconf() {
   esac
   cat "$(find . -name fuel -type d | head -n 1)/app/config/$my"/*
 }
+
+function deploy() {
+  before='http://jenkins.dotprojects.be/job/'
+  mid=$1
+  after='/build?delay=0sec'
+  url=$before$mid$after
+  open $url
+}

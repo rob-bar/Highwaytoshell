@@ -22,7 +22,7 @@
   log = true
   stat = true
 [push]
-  default = matching
+  default = current
 [core]
   excludesfile = ~/.gitignore
   editor = subl
