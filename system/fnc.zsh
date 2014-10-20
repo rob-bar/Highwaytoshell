@@ -158,3 +158,11 @@ function deploy() {
   url=$before$mid$after
   open $url
 }
+
+decode64 () {
+  openssl enc -base64 -d <<< $1 | pbcopy
+}
+
+encode64 () {
+  openssl enc -base64 <<< $1 | pbcopy
+}
