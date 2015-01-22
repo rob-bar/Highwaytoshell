@@ -152,11 +152,12 @@ function fconf() {
 }
 
 function deploy() {
-  before='http://jenkins.dotprojects.be/job/'
+  before='http://crosscheck:e4f1972c8dea7ae941568ae6b41abe70@build-001.crosscheck.openminds.be/job/'
   mid=$1
-  after='/build?delay=0sec'
+  after='/build?delay=0sec&token=e4f1972c8dea7ae941568ae6b41abe70'
   url=$before$mid$after
-  open $url
+  curl -X POST $url
+  open $before$mid
 }
 
 decode64 () {

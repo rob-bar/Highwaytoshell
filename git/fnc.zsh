@@ -13,3 +13,10 @@ cat .gitignore | egrep -v "^#|^$" | while read line; do
   fi
 done
 }
+
+function gcmb: () {
+  branch_name=$(git symbolic-ref -q HEAD)
+  branch_name=${branch_name##refs/heads/}
+  branch_name=${branch_name:-HEAD}
+  gcm "$branch_name: $1";
+}

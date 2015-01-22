@@ -4,7 +4,7 @@ alias algit='cat ~/.oh-my-zsh/custom/git/alias.zsh'
 # GIT HELP & INIT
 alias gi='git init'
 alias gib='git init --bare'
-alias gh='git help'
+alias ghelp='git help'
 alias ghall='git help --all'
 
 # CONFIG
