@@ -45,7 +45,6 @@ Thumbs.db
 #########
 *.xiki
 *.sass-cache/
-node_modules/
 
 # DRUPAL #
 ##########

@@ -20,6 +20,18 @@ alias pportf='cd ~/Documents/OWN_PROJECTS/panel_portfolio'
 ################################################################################################################
 alias bfrontend='sh $ZSH_CUSTOM/builds/frontend.sh'
 
+# Vagrant
+################################################################################################################
+alias vu='vagrant up'
+alias vr='vagrant reload'
+alias vssh='vagrant ssh'
+alias vs='vagrant share'
+alias vh='vagrant halt'
+alias vd='vagrant destory'
+alias vp='vagrant provision'
+alias va='vagrant'
+alias va/='vagrant/'
+
 ################################################################################################################
 alias reload!='. ~/.bash_profile'
 alias hts='cd ~/.oh-my-zsh/custom'

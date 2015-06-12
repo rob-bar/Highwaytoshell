@@ -1,3 +1,7 @@
 alias dwvlacc='deploy "(WVL 2014) acc deploy"'
 alias dwvldev='deploy "(WVL 2014) dev deploy"'
-alias drkgem='deploy "(DRK7-GEMEENTES-OMEGA) deploy update"'
+alias drkgemprod='deploy "(DRK7-GEMEENTEN-OMEGA) deploy update"'
+alias drkgemstage='deploy "(DRK7-STAGING-GEMEENTES-OMEGA) deploy update"'
+alias vjfacc='deploy "(VJF-acc) deploy"'
+alias vjfdev='deploy "(VJF-dev) deploy"'
+alias vjfprod='deploy "(VJF-prod) deploy"'

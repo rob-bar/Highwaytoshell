@@ -139,10 +139,13 @@ alias gpsos='git push origin staging'
 
 # - PULL
 alias gpl='git pull'
+alias gplo='git pull origin'
 alias gplom='git pull origin master'
 alias gplod='git pull origin develop'
 alias gplos='git pull origin staging'
 
+# - PULL & PUSH
+alias gpp='gpl && gpso'
 
 # - CLONE
 alias gcl='git clone'
