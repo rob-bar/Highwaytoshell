@@ -136,6 +136,8 @@ alias gpso='git push origin'
 alias gpsom='git push origin master'
 alias gpsod='git push origin develop'
 alias gpsos='git push origin staging'
+# delete remote branche
+alias gpsd='push origin --delete'
 
 # - PULL
 alias gpl='git pull'

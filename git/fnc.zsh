@@ -27,3 +27,15 @@ function gcmbi: () {
   branch_name=${branch_name:-HEAD}
   gcm "Issue #${branch_name:6}: $1";
 }
+
+function gcmbgh: () {
+  branch_name=$(git symbolic-ref -q HEAD)
+  branch_name=${branch_name##refs/heads/}
+  branch_name=${branch_name:-HEAD}
+  gcm "#${branch_name:6}: $1";
+}
+
+function gnuke: () {
+  git branch -d $1 && git push origin --delete $1;
+}
+

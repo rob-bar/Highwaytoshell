@@ -49,3 +49,7 @@ Thumbs.db
 # DRUPAL #
 ##########
 stage_file_proxy/
+
+# CODEIGNITER #
+###############
+application/config/local
