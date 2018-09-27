@@ -4,7 +4,7 @@ alias alsys='cat ~/.oh-my-zsh/custom/system/alias.zsh'
 # paths
 ################################################################################################################
 alias proj='cd ~/Documents/PROJECTS/'
-alias own='cd ~/Documents/OWN_PROJECTS/'
+alias own='cd ~/Documents/BUSINESS/'
 alias temp='cd ~/Documents/TEMP/'
 alias expo='cd ~/Documents/EXPORTS/'
 alias files='cd ~/Documents/PROX_FILES/'
@@ -84,3 +84,6 @@ alias hidehiddenfiles='defaults write com.apple.Finder AppleShowAllFiles FALSE; 
 ################################################################################################################
 alias o='open'
 alias o.='open .'
+
+################################################################################################################
+alias ochrome='~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security'
