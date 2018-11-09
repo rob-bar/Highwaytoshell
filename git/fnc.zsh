@@ -14,6 +14,13 @@ cat .gitignore | egrep -v "^#|^$" | while read line; do
 done
 }
 
+function gplob () {
+  branch_name=$(git symbolic-ref -q HEAD)
+  branch_name=${branch_name##refs/heads/}
+  branch_name=${branch_name:-HEAD}
+  gpl origin "$branch_name";
+}
+
 function gcmb: () {
   branch_name=$(git symbolic-ref -q HEAD)
   branch_name=${branch_name##refs/heads/}

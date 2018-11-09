@@ -9,12 +9,9 @@ alias temp='cd ~/Documents/TEMP/'
 alias expo='cd ~/Documents/EXPORTS/'
 alias files='cd ~/Documents/PROX_FILES/'
 alias repo='cd ~/Documents/REPO/'
-alias engine='cd ~/Documents/REPO/prox_engine'
-alias frontend='cd ~/Documents/REPO/prox_frontend'
-alias joints='cd ~/Documents/REPO/prox_joints'
-alias nodehost='cd ~/Documents/OWN_PROJECTS/node/;npm start'
-alias portf='cd ~/Documents/OWN_PROJECTS/portfolio_2013'
-alias pportf='cd ~/Documents/OWN_PROJECTS/panel_portfolio'
+
+alias eventp='cd ~/Documents/BUSINESS/pinkminds/eventplanner'
+
 
 # builds
 ################################################################################################################
@@ -86,4 +83,7 @@ alias o='open'
 alias o.='open .'
 
 ################################################################################################################
-alias ochrome='~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security'
+alias ochrome='cd /Users/robbiebardijn/Documents/PROJECTS/crfsa_app_mobile && ~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="~/Library/Application\ Support/Google/Chrome/Default" --disable-web-security'
+
+################################################################################################################
+alias dockfocus='docker start focus-pg && docker start focus-redis'

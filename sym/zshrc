@@ -112,5 +112,5 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export JAVA_HOME=`/usr/libexec/java_home -v '1.8'`
 
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="/Users/robbiebardijn/Library/Python/3.6/bin:$PATH"
 export PATH="/Applications/MySQLWorkbench.app/Contents/MacOS:$PATH"
+export PATH="/usr/local/opt/erlang@20/bin:$PATH"

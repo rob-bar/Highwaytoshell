@@ -97,11 +97,33 @@ function i() {
   file -b `find . -name $1`;
 }
 
+function digi() {
+  if [ -z "$1" ]; then
+    cd ~/Documents/PROJECTS/DIGIPOLIS/;
+  else
+    my= `find ~/Documents/PROJECTS/DIGIPOLIS/*$1* -depth 0 -type d | head -1`
+    cd "$my";
+  fi
+
+
+
+  if [ -d .git ]
+  then
+    gst;
+  fi
+
+  if [ -d .svn ]
+  then
+    svn status;
+  fi
+}
+
+
 function p() {
   case "$2"
   in
     -p) my= `find ~/Documents/PROJECTS/*$1* -depth 0 -type d | head -1`;;
-    -o) my= `find ~/Documents/OWN_PROJECTS/*$1* -depth 0 -type d | head -1`;;
+    -o) my= `find ~/Documents/BUSINESS/*$1* -depth 0 -type d | head -1`;;
     -r) my= `find ~/Documents/REPO/*$1* -depth 0 -type d | head -1`;;
     -t) my= `find ~/Documents/TEMP/*$1* -depth 0 -type d | head -1`;;
     *) my= `find ~/Documents/PROJECTS/*$1* -depth 0 -type d | head -1`;;

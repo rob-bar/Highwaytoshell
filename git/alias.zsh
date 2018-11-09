@@ -11,7 +11,7 @@ alias ghall='git help --all'
 alias gcnf='cat .git/config'
 
 # STATUSSES AND LOGS
-alias gst='git status'
+alias gst='git status -s'
 alias gwc='git whatchanged'
 alias gsh='git show'
 alias gshb='git show-branch'
@@ -77,7 +77,8 @@ alias gba='git branch -a'
 alias gbd='git branch -d'
 # force delete branche
 alias gbD='git branch -D'
-
+# delete remote brancg
+alias gbdr='git push origin --delete'
 alias gm='git merge'
 
 # - CHECKOUT
@@ -137,7 +138,7 @@ alias gpsom='git push origin master'
 alias gpsod='git push origin develop'
 alias gpsos='git push origin staging'
 # delete remote branche
-alias gpsd='push origin --delete'
+alias gpsd='git push origin --delete'
 
 # - PULL
 alias gpl='git pull'
