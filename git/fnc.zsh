@@ -63,3 +63,11 @@ function gnuke: () {
 function vlcomp () {
   COMPONENT=$1 yarn component;
 }
+
+function gbc() {
+  gb | grep $1 | xargs | pbcopy;
+}
+
+function gbs() {
+  gb | grep $1 | xargs git checkout;
+}

@@ -77,6 +77,8 @@ alias gba='git branch -a'
 alias gbd='git branch -d'
 # force delete branche
 alias gbD='git branch -D'
+
+
 # delete remote brancg
 alias gbdr='git push origin --delete'
 alias gm='git merge'

@@ -21,6 +21,9 @@
 [merge]
   log = true
   stat = true
+[pager]
+  branch = false
+  show = false
 [push]
   default = current
 [core]
