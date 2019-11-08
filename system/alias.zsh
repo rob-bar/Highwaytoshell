@@ -86,4 +86,4 @@ alias o.='open .'
 alias ochrome='cd /Users/robbiebardijn/Documents/PROJECTS/crfsa_app_mobile && ~/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="~/Library/Application\ Support/Google/Chrome/Default" --disable-web-security'
 
 ################################################################################################################
-alias dockfocus='docker start focus-pg && docker start focus-redis && docker start focus-rabbit'
+alias nextstart='cd backend/ && npm run dev;cd ../frontend && npm run dev;'

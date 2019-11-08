@@ -97,11 +97,11 @@ function i() {
   file -b `find . -name $1`;
 }
 
-function digi() {
+function pers() {
   if [ -z "$1" ]; then
-    cd ~/Documents/PROJECTS/DIGIPOLIS/;
+    cd ~/Documents/PROJECTS/PERSGROEP/;
   else
-    my= `find ~/Documents/PROJECTS/DIGIPOLIS/*$1* -depth 0 -type d | head -1`
+    my= `find ~/Documents/PROJECTS/PERSGROEP/*$1* -depth 0 -type d | head -1`
     cd "$my";
   fi
 
