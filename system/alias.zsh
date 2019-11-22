@@ -11,7 +11,7 @@ alias files='cd ~/Documents/PROX_FILES/'
 alias repo='cd ~/Documents/REPO/'
 
 alias eventp='cd ~/Documents/BUSINESS/pinkminds/eventplanner'
-
+alias portf='cd ~/Documents/REPO/portfolio'
 
 # builds
 ################################################################################################################
