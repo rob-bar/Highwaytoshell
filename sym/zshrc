@@ -108,31 +108,27 @@ fi
 USE_PATCHED_FONT=true
 LANG="en_US.UTF-8"
 
-#########################################
-# JAVA THINGS
-#########################################
-# MAVEN
-export PATH="/opt/apache-maven/bin:$PATH"
-
-# JAVA
-# export JAVA_HOME=`/usr/libexec/java_home -v '1.6'`
-# export JAVA_HOME=`/usr/libexec/java_home -v '1.7'`
-# export JAVA_HOME=`/usr/libexec/java_home -v '1.8'`
-export JAVA_HOME=$(/usr/libexec/java_home)
-
 ##########################################
 # PYTHON
 ##########################################
-export PATH="/Users/rbardijn/Library/Python/3.7/bin:$PATH"
+export PATH="/Users/robbiebardijn/Library/Python/2.7/bin:$PATH"
 
 ##########################################
 # NODE
 ##########################################
-export PATH="/usr/local/opt/node@10/bin:$PATH"
+# export PATH="/usr/local/opt/node@10/bin:$PATH"
 
 ##########################################
-# MASL
+# JAVA
 ##########################################
-export AWS_PROFILE=default
-export AWS_REGION=eu-west-1
-# export AWS_PROFILE=default
+export JAVA_HOME=`/usr/libexec/java_home`
+export PATH="/opt/apache-maven/bin:$PATH"
+# export JAVA_HOME=`/usr/libexec/java_home`
+
+
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
+
+export PATH="/usr/local/opt/openjdk/bin:$PATH"

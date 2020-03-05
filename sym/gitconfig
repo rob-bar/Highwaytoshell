@@ -28,7 +28,7 @@
   default = current
 [core]
   excludesfile = ~/.gitignore
-  editor = subl
+  editor = code --wait
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   path =

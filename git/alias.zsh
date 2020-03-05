@@ -144,6 +144,7 @@ alias gpsd='git push origin --delete'
 
 # - PULL
 alias gpl='git pull'
+alias gplr='git pull --rebase'
 alias gplo='git pull origin'
 alias gplom='git pull origin master'
 alias gplod='git pull origin develop'

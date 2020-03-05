@@ -11,7 +11,7 @@ alias files='cd ~/Documents/PROX_FILES/'
 alias repo='cd ~/Documents/REPO/'
 
 alias eventp='cd ~/Documents/BUSINESS/pinkminds/eventplanner'
-alias portf='cd ~/Documents/REPO/portfolio'
+alias portf='cd ~/Documents/BUSINESS/portfolio'
 
 # builds
 ################################################################################################################
@@ -87,3 +87,5 @@ alias ochrome='cd /Users/robbiebardijn/Documents/PROJECTS/crfsa_app_mobile && ~/
 
 ################################################################################################################
 alias nextstart='cd backend/ && npm run dev;cd ../frontend && npm run dev;'
+
+alias mazzel='masl -account jawbreaker;'
