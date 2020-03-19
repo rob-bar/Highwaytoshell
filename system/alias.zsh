@@ -89,3 +89,5 @@ alias ochrome='cd /Users/robbiebardijn/Documents/PROJECTS/crfsa_app_mobile && ~/
 alias nextstart='cd backend/ && npm run dev;cd ../frontend && npm run dev;'
 
 alias mazzel='masl -account jawbreaker;'
+
+alias perspull='pers; cd jawbreaker-vtm-beleving-bff/ && gpl;cd ../jawbreaker-vtm-beleving-cms/ && gpl;cd ../jawbreaker-vtm-beleving-qa/ && gpl;cd ../jawbreaker-vtm-beleving-renderer/ && gplr;'

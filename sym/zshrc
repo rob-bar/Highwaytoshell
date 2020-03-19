@@ -64,7 +64,7 @@ for config_file ($ZSH_CUSTOM/**/*.zsh) do
   source $config_file
 done
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.composer/vendor/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.composer/vendor/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -125,7 +125,7 @@ export JAVA_HOME=`/usr/libexec/java_home`
 export PATH="/opt/apache-maven/bin:$PATH"
 # export JAVA_HOME=`/usr/libexec/java_home`
 
-
+export PATH="/Users/robbiebardijn/Library/Python/2.7/bin:$PATH"
 
 # tabtab source for packages
 # uninstall by removing these lines
