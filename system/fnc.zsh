@@ -97,6 +97,45 @@ function i() {
   file -b `find . -name $1`;
 }
 
+function tan() {
+  if [ -z "$1" ]; then
+    cd ~/Documents/PROJECTS/TANGENT/;
+  else
+    my= `find ~/Documents/PROJECTS/TANGENT/*$1* -depth 0 -type d | head -1`
+    cd "$my";
+  fi
+
+  if [ -d .git ]
+  then
+    gst;
+  fi
+
+  if [ -d .svn ]
+  then
+    svn status;
+  fi
+}
+
+function med() {
+  if [ -z "$1" ]; then
+    cd ~/Documents/PROJECTS/MEDIAHUIS/;
+  else
+    my= `find ~/Documents/PROJECTS/MEDIAHUIS/*$1* -depth 0 -type d | head -1`
+    cd "$my";
+  fi
+
+  if [ -d .git ]
+  then
+    gst;
+  fi
+
+  if [ -d .svn ]
+  then
+    svn status;
+  fi
+}
+
+
 function pers() {
   if [ -z "$1" ]; then
     cd ~/Documents/PROJECTS/PERSGROEP/;

@@ -83,7 +83,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-export EDITOR='subl -w'
+export EDITOR='code --wait'
 
 # export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
 
@@ -116,7 +116,8 @@ export PATH="/Users/robbiebardijn/Library/Python/2.7/bin:$PATH"
 ##########################################
 # NODE
 ##########################################
-# export PATH="/usr/local/opt/node@10/bin:$PATH"
+export PATH="/usr/local/opt/node@14/bin:$PATH"
+# export PATH="/usr/local/opt/node@12/bin:$PATH"
 
 ##########################################
 # JAVA
