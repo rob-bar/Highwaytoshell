@@ -28,40 +28,50 @@ function gcmb: () {
   gcm "$branch_name: $1";
 }
 
-function gcmbi: () {
+function gcmfeat () {
   branch_name=$(git symbolic-ref -q HEAD)
   branch_name=${branch_name##refs/heads/}
   branch_name=${branch_name:-HEAD}
-  gcm "Issue #${branch_name:6}: $1";
+  gcm "Feat (${branch_name}): $1";
 }
 
-function gcmbgh: () {
+function gcmdoc () {
   branch_name=$(git symbolic-ref -q HEAD)
   branch_name=${branch_name##refs/heads/}
   branch_name=${branch_name:-HEAD}
-  gcm "#${branch_name:6}: $1";
+  gcm "Doc (${branch_name}): $1";
 }
 
-function gcmbf: () {
+function gcmfix () {
   branch_name=$(git symbolic-ref -q HEAD)
   branch_name=${branch_name##refs/heads/}
   branch_name=${branch_name:-HEAD}
-  gcm "${branch_name:8:7}: $1";
+  gcm "Fix (${branch_name}): $1";
 }
 
-function gcmbff: () {
+function gcmrefactor () {
   branch_name=$(git symbolic-ref -q HEAD)
   branch_name=${branch_name##refs/heads/}
   branch_name=${branch_name:-HEAD}
-  gcm "${branch_name:8:14}: $1";
+  gcm "Refactor (${branch_name}): $1";
 }
 
-function gnuke: () {
+function gcmconfig () {
+  branch_name=$(git symbolic-ref -q HEAD)
+  branch_name=${branch_name##refs/heads/}
+  branch_name=${branch_name:-HEAD}
+  gcm "Config (${branch_name}): $1";
+}
+
+function gcmtest () {
+  branch_name=$(git symbolic-ref -q HEAD)
+  branch_name=${branch_name##refs/heads/}
+  branch_name=${branch_name:-HEAD}
+  gcm "Test (${branch_name}): $1";
+}
+
+function gbranchnuke: () {
   git branch -d $1 && git push origin --delete $1;
-}
-
-function vlcomp () {
-  COMPONENT=$1 yarn component;
 }
 
 function gbc() {

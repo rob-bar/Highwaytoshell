@@ -1,9 +1,11 @@
 # VIEW THIS FILE
 alias algit='cat ~/.oh-my-zsh/custom/git/alias.zsh'
 
-# GIT HELP & INIT
+# GIT INIT
 alias gi='git init'
 alias gib='git init --bare'
+
+# GIT HELP
 alias ghelp='git help'
 alias ghall='git help --all'
 
@@ -66,6 +68,7 @@ alias gcp='git cherry-pick'
 alias gc='git commit'
 alias gcm='git commit -m'
 alias gcam='git commit --amend -m'
+alias gcane='git commit --amend --no-edit'
 
 # - BRANCHES & MERGES
 alias gb='git branch'
@@ -97,6 +100,13 @@ alias gcoo='git checkout --ours'
 alias gcot='git checkout --theirs'
 # checkout branch and copy the previous branch to the clipboard for quicker merge
 alias gcoc='git rev-parse --abbrev-ref HEAD | pbcopy && git checkout'
+
+# - REBASE
+alias gri='git rebase -i'
+alias grmain='git rebase main'
+alias grmaster='git rebase master'
+alias grc='git rebase --continue'
+alias gra='git rebase --abort'
 
 # - DIFF
 alias gd='git diff'
@@ -137,8 +147,7 @@ alias gps='git push'
 alias gpsf='git push -f'
 alias gpso='git push origin'
 alias gpsom='git push origin master'
-alias gpsod='git push origin develop'
-alias gpsos='git push origin staging'
+
 # delete remote branche
 alias gpsd='git push origin --delete'
 
@@ -147,8 +156,6 @@ alias gpl='git pull'
 alias gplr='git pull --rebase'
 alias gplo='git pull origin'
 alias gplom='git pull origin master'
-alias gplod='git pull origin develop'
-alias gplos='git pull origin staging'
 
 # - PULL & PUSH
 alias gpp='gpl && gpso'
